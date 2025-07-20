@@ -4,11 +4,11 @@
 > For more information: https://wiki.ros.org/
 
 
-- Echo the incoming messages on terminal:
+- Echo incoming messages in the terminal:
 
 `rostopic echo {{/topic_name}}`
 
-- Show rate of the incoming messages:
+- Show the rate of incoming messages:
 
 `rostopic hz {{/topic_name}}`
 
@@ -16,11 +16,11 @@
 
 `rostopic info {{topic_info}}`
 
-- List all the active topics:
+- List all active topics:
 
 `rostopic list`
 
-- Publish data to topic:
+- Publish data to a topic:
 
-`rostopic pub {{/topic_name}}`
+`rostopic pub {{/topic_name}} {{message_type}} {{args}}`
 

@@ -11,7 +11,7 @@
 
 `rosnode kill {{node_name}}`
 
-- List all running node
+- List all running nodes
 
 `rosnode list`
 
